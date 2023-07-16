@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+  background-color: #0d1117;
+  font-family: poppins;
+  
+}
+
+.navli:hover{
+  background: linear-gradient(to right, #12eb98 0%, #288bee 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  transform: scale(110%);
+  transition: .2s ease-out;
+}
+
+.textdiv{
+  background: linear-gradient(to right,#12eb98 0%, #288bee 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.navbg{
+  
+  backdrop-filter: blur(10px);
+}
+
+.sicons{
+  width: 15px;
+}
+
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (max-width:1200px){
+  .md\:p-40{
+    padding: 10rem 2rem!important;
+  }
+}
+
+.projectHover:hover{
+  transform: 110%;
+  transition: .2s ease-out;
+}
