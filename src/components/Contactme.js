@@ -9,7 +9,9 @@ const Contactme = () => {
         <div className='w-1/2 p-10 m-4 text-white'>
           <div className='mt-10'>
             <h2 className='text-lg font-bold'>Contact&nbsp;Number:</h2>
-            <p><a href="tel:+94719788669">+94 71 978 8669</a></p>
+            <p>
+              <a href="tel:+94719788669">+94 71 978 8669</a>
+              </p>
           </div>
           <div className='mt-5'>
             <h2 className='text-lg font-bold'>Email&nbsp;Address:</h2>
@@ -20,13 +22,9 @@ const Contactme = () => {
             <p>No&nbsp;348/A, <br />Matuwagala, <br />Kiriella,<br />Sabaragamuwa,<br />Sri&nbsp;Lanaka,<br />70482</p>
           </div>
         </div>
-
         {/* Right side */}
-    
         <div className='w-1/2 p-10'>
-        
           <img src={imgs} alt='YourImage' className='w-full' />
-        
         </div>
       </div>
     </div>

@@ -6,6 +6,7 @@ import Aboutme from "./components/Aboutme";
 import Skills from "./components/Skills";
 import Blogs from "./components/Blogs";
 import Blogs1 from "./components/Blogs1"
+import Blogs2 from "./components/Blogs2"
 
 import Footer from "./components/Footer";
 
@@ -19,6 +20,7 @@ function App() {
       <Skills />
       <Blogs />
       <Blogs1 />
+      <Blogs2 />
       <br/><br/><br/><br/>
       <ContactMe/>
       <Footer/>

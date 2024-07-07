@@ -3,7 +3,7 @@ import home from '../img/homepage.png'
 
 import Typed from 'react-typed'
 import { FaFacebook, FaLinkedin, FaGithub, FaWhatsapp, FaStackOverflow } from 'react-icons/fa'
-
+import { FaMedium } from "react-icons/fa6";
 
 
 
@@ -32,13 +32,18 @@ const Home = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.facebook.com/ushan.dilusha.10" target={"_blank"} rel="noreferrer">
-                <FaFacebook size={'30'} />
+              <a href="https://github.com/Ushan-Dilusha" target={"_blank"} rel="noreferrer">
+                <FaGithub size={'30'} />
               </a>
             </li>
             <li>
-              <a href="https://github.com/Ushan-Dilusha" target={"_blank"} rel="noreferrer">
-                <FaGithub size={'30'} />
+              <a href="https://medium.com/@ushandilusha" target={"_blank"} rel="noreferrer">
+                <FaMedium size={'30'} />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/ushan.dilusha.10" target={"_blank"} rel="noreferrer">
+                <FaFacebook size={'30'} />
               </a>
             </li>
             <li>

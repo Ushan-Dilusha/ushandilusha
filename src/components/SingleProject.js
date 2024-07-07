@@ -1,13 +1,7 @@
 import React from 'react'
 
-
-
 const SingleProject = (props) => {
-
-    
   return (
-
-    
     <div className='lg:flex-row lg:w-[1200px] mx-auto rounded-lg shadow-lg shadow-[#212832] '>
         <div className='bg-white  rounded-xl '>
             <img className='rounded-lg h-[230px]' alt='imagesrc' src={props.image}/>
