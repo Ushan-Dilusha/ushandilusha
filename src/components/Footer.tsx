@@ -65,9 +65,7 @@ export default function Footer() {
 
         <div className="footer__bottom">
           <p className="footer__copyright">
-            © {currentYear} {personalInfo.name}. Crafted with
-            <span className="footer__heart"> ❤️ </span>
-            and lots of ☕
+            © {currentYear} {personalInfo.name}.
           </p>
           <p className="footer__tech">
             Built with React + TypeScript + Vite
