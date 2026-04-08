@@ -1,5 +1,11 @@
 import { useRef, useEffect, useState } from 'react';
 import { personalInfo } from '../data/portfolioData';
+import { 
+  HiOutlineLocationMarker, 
+  HiOutlineBriefcase, 
+  HiOutlineMail, 
+  HiOutlineLightBulb 
+} from 'react-icons/hi';
 import './About.css';
 
 export default function About() {
@@ -62,28 +68,28 @@ export default function About() {
 
             <div className="about__info-grid">
               <div className="about__info-item">
-                <span className="about__info-icon">📍</span>
+                <span className="about__info-icon"><HiOutlineLocationMarker /></span>
                 <div>
                   <span className="about__info-label">Location</span>
                   <span className="about__info-value">{personalInfo.location}</span>
                 </div>
               </div>
               <div className="about__info-item">
-                <span className="about__info-icon">💼</span>
+                <span className="about__info-icon"><HiOutlineBriefcase /></span>
                 <div>
                   <span className="about__info-label">Role</span>
                   <span className="about__info-value">{personalInfo.title}</span>
                 </div>
               </div>
               <div className="about__info-item">
-                <span className="about__info-icon">📧</span>
+                <span className="about__info-icon"><HiOutlineMail /></span>
                 <div>
                   <span className="about__info-label">Email</span>
                   <span className="about__info-value">{personalInfo.email}</span>
                 </div>
               </div>
               <div className="about__info-item">
-                <span className="about__info-icon">🎯</span>
+                <span className="about__info-icon"><HiOutlineLightBulb /></span>
                 <div>
                   <span className="about__info-label">Focus</span>
                   <span className="about__info-value">Full-Stack Development</span>

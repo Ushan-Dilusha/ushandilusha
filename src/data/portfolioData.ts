@@ -68,9 +68,9 @@ export interface Education {
 
 export const personalInfo = {
   name: 'Ushan Dilusha',
-  title: 'Associate Software Engineer',
+  title: 'Software Engineer',
   tagline: 'Building elegant digital experiences with modern technologies',
-  bio: `I'm a passionate Associate Software Engineer who thrives on crafting clean, efficient, and scalable web applications. With a strong foundation in full-stack development, I specialize in building responsive user interfaces and robust backend services using modern frameworks and tools.`,
+  bio: `I'm a passionate Software Engineer who thrives on crafting clean, efficient, and scalable web applications. With a strong foundation in full-stack development, I specialize in building responsive user interfaces and robust backend services using modern frameworks and tools.`,
   email: 'ushandilusha@gmail.com',
   github: 'https://github.com/ushan-dilusha',
   linkedin: 'https://www.linkedin.com/in/ushan-dilusha-492b1519b/',
