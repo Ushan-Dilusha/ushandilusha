@@ -323,14 +323,14 @@ export const education: Education[] = [
     description:
       'Achieved a Second Lower Class Honors degree in Information Technology, specializing in Information Technology. Focused on developing advanced software engineering skills, including full-stack development, database management, and modern web technologies.',
   },
-  {
-    id: 2,
-    degree: 'MSc. in Computer Science and Engineering, Computer Science',
-    institution: 'University of Moratuwa',
-    period: 'Expected to Complete in 2027',
-    description:
-      'MSc. in Computer Science and Engineering, Computer Science',
-  },
+  // {
+  //   id: 2,
+  //   degree: 'MSc. in Computer Science and Engineering, Computer Science',
+  //   institution: 'University of Moratuwa',
+  //   period: 'Expected to Complete in 2027',
+  //   description:
+  //     'MSc. in Computer Science and Engineering, Computer Science',
+  // },
   {
     id: 3,
     degree: 'G.C.E. Advanced Level',
