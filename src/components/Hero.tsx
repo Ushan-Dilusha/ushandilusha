@@ -9,7 +9,7 @@ import {
   FaFacebookF, 
   FaWhatsapp 
 } from 'react-icons/fa6';
-import { HiOutlineMail, HiArrowRight } from 'react-icons/hi';
+import { HiOutlineMail, HiArrowRight, HiOutlineDocumentDownload } from 'react-icons/hi';
 import ParticlesBackground from './ParticlesBackground';
 import './Hero.css';
 
@@ -68,6 +68,10 @@ export default function Hero() {
               document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
             }}>
               <span>Get in Touch</span>
+            </a>
+            <a href={personalInfo.resumeUrl} className="hero__btn hero__btn--secondary" target="_blank" rel="noopener noreferrer">
+              <span>Resume</span>
+              <HiOutlineDocumentDownload size={18} />
             </a>
           </div>
 

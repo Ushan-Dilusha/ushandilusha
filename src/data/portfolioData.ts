@@ -79,7 +79,7 @@ export const personalInfo = {
   stackoverflow: 'https://stackoverflow.com/users/20942289/ushan-dilusha',
   medium: 'https://medium.com/@ushandilusha',
   location: 'Sri Lanka',
-  resumeUrl: '#',
+  resumeUrl: '/Ushan_Dilusha_CV.pdf',
   avatar: '/avatar.jpeg',
 };
 

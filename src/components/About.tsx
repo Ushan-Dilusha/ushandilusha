@@ -4,7 +4,8 @@ import {
   HiOutlineLocationMarker, 
   HiOutlineBriefcase, 
   HiOutlineMail, 
-  HiOutlineLightBulb 
+  HiOutlineLightBulb,
+  HiOutlineDocumentDownload
 } from 'react-icons/hi';
 import './About.css';
 
@@ -95,6 +96,13 @@ export default function About() {
                   <span className="about__info-value">Full-Stack Development</span>
                 </div>
               </div>
+            </div>
+            
+            <div className="about__actions">
+              <a href={personalInfo.resumeUrl} className="about__btn" target="_blank" rel="noopener noreferrer" download="Ushan_Dilusha_CV.pdf">
+                <HiOutlineDocumentDownload />
+                <span>Download CV</span>
+              </a>
             </div>
           </div>
         </div>
